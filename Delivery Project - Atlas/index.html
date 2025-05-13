@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atlas - Accueil</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero" id="hero">
+    <div class="branding">
+      <img src="atlas-logo.svg" alt="Atlas Logo" class="logo" />
+      <h1 class="title">ATLAS</h1>
+      <p class="subtitle">Explorez le monde avec une nouvelle perspective</p>
+    </div>
+    <div class="search-container" id="searchContainer">
+      <input type="text" id="searchInput" placeholder="Rechercher un lieu..." />
+    </div>
+  </header>
+
+  <main>
+    <div id="map"></div>
+  </main>
+  
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
